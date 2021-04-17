@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krym</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__top" id="header__top">
+        <a class="logo" href="#">
+          <img src="images/logo.svg" alt="Logo icon">
+        </a>
+        <nav class="menu">
+          <button class="menu__btn">
+            <span></span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#header">Главная</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#about">О нас</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#route">Маршруты</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#contact">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__info">
+          <a class="mail" href="mailto:info@crimea.m.ru"><span>info</span>@crimea.m.ru</a>
+          <a class="number" href="tel:79998525200">+7 (999) <span>852 52 00</span></a>
+        </div>
+      </div>
+      <div class="header__inner">
+        <div class="header__content">
+          <h1 class="header__title">
+            Исследуйте тайны пещер Крыма
+          </h1>
+          <p class="header__subtitle">
+            Организуем для Вас незабываемое
+            путешествие по полуострову
+          </p>
+          <a class="header__btn" href="#">Записаться в тур</a>
+          <div class="header__social">
+            <p class="header__text">Больше в соц сетях:</p>
+            <a class="header__social-link" href="#">
+              <img class="header__social-image" src="images/social/1.svg" alt="social icon">
+            </a>
+            <a class="header__social-link" href="#">
+              <img class="header__social-image" src="images/social/2.svg" alt="social icon">
+            </a>
+            <a class="header__social-link" href="#">
+              <img class="header__social-image" src="images/social/3.svg" alt="social icon">
+            </a>
+            <a class="header__social-link" href="#">
+              <img class="header__social-image" src="images/social/4.svg" alt="social icon">
+            </a>
+          </div>
+        </div>
+        <div class="header__video">
+          <a class="header__video-btn" data-fancybox href="https://www.youtube.com/watch?v=iwwFvgvCyvY">
+            <img src="images/header-btn.svg" alt="play button">
+          </a>
+          <p class="header__video-text">
+            Посмотрите как это было в 2019
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+   <section class="about" id="about">
+    <div class="container">
+      <div class="about__inner">
+        <img class="about__img" src="images/about-bg.jpg" alt="About image">
+        <div class="about__content">
+          <h3 class="title about__title">
+            Больше о Crimea.M
+          </h3>
+          <p class="about__text">
+            Мы любим нашу местность и уже более
+            7 лет проводим здесь специальные туры
+          </p>
+          <p class="about__text">
+            Знаем каждую пещеру и каждый поворот,
+            поможем получить незабываемые
+            впечатления от отпуска
+          </p>
+          <p class="about__text">
+            Ежегодно проходим более 1000 км вместе
+            с вами. Благодаря нам, в тайных пещерах
+            Крыма побвывало уже более 7000 человек
+          </p>
+          <p class="about__text">
+            Приглашаем вас присоединиться!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="route" id="route">
+    <div class="container">
+      <h3 class="title route__title">
+        Основные маршруты
+      </h3>
+      <form class="route__filter" action="#">
+        <label class="route__filter-btn route__filter-btn--active">
+          <input class="route__filter-input" type="radio" name="filter" checked>
+          <span class="route__filter-radio">
+          По горному Крыму
+          </span>
+        </label>
+        <label class="route__filter-btn">
+          <input class="route__filter-input" type="radio" name="filter">
+          <span class="route__filter-radio">
+          По пещерным городам
+          </span>
+        </label>
+      </form>
+      <div class="route__cards">
+        <div class="route-card" style="background-image: url('images/route/1.jpg');">
+          <div class="route-card__content">
+            <div class="route-card__info">
+              <a class="route-card__distance" href="#">
+                8km
+              </a>
+              <a class="route-card__price" href="#">
+                4000руб
+              </a>
+            </div>
+            <a class="route-card__title" href="#">
+              Таврические горы
+            </a>
+          </div>
+        </div>
+        <div class="route-card" style="background-image: url('images/route/2.jpg');">
+          <div class="route-card__content">
+            <div class="route-card__info">
+              <a class="route-card__distance" href="#">
+                14km
+              </a>
+              <a class="route-card__price" href="#">
+                4000руб
+              </a>
+            </div>
+            <a class="route-card__title" href="#">
+              Таракташская тропа
+            </a>
+          </div>
+        </div>
+        <div class="route-card" style="background-image: url('images/route/3.jpg');">
+          <div class="route-card__content">
+            <div class="route-card__info">
+              <a class="route-card__distance" href="#">
+                6km
+              </a>
+              <a class="route-card__price" href="#">
+                3000руб
+              </a>
+            </div>
+            <a class="route-card__title" href="#">
+              Голицынская тропа
+            </a>
+          </div>
+        </div>
+        <div class="route-card" style="background-image: url('images/route/4.jpg');">
+          <div class="route-card__content">
+            <div class="route-card__info">
+              <a class="route-card__distance" href="#">
+                8km
+              </a>
+              <a class="route-card__price" href="#">
+                4000руб
+              </a>
+            </div>
+            <a class="route-card__title" href="#">
+              Байдарская стена
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <h2 class="contact__title">
+          Свяжитесь с нами
+        </h2>
+        <a class="contact__number" href="tel:79998525200">+7 (999) <span>852 52 00</span></a>
+        <a class="contact__mail" href="mailto:info@crimea.m.ru"><span>info</span>@crimea.m.ru</a>
+        <a class="contact__btn" href="#">Записаться в тур</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="logo" href="#">
+          Crimea<span>.</span>M 
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#header">Главная</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#about">О нас</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#route">Маршруты</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#contact">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__copyright">
+          Все права защищены
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
